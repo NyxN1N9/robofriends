@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import App from './App';
+import './Hello.css';
 
 class Hello extends Component {
     render(){
         return (
-        <App />,<h1>Hello World</h1>
-        )
+        <div>
+            <h1>Hello World</h1>
+            <p>Welcome to React</p>
+        </div>  
+        );
     }
 }
 export default Hello;
