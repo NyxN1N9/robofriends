@@ -15,9 +15,9 @@ root.render(
 ); 
 */
 
- ReactDOM.createRoot(document.getElementById('root')).render(
-    <Hello />
-  );
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <Hello greeting={'Hello ' + 'React Ninja'}/> 
+);
 
 reportWebVitals(); 
 // If you want to start measuring performance in your app, pass a function
