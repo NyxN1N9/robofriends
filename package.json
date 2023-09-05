@@ -11,7 +11,7 @@
     "css-select": "^5.1.0",
     "gh-pages": "^6.0.0",
     "npm": "^10.0.0",
-    "nth-check": ">=2.1.1",
+    "nth-check": ">=2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tachyons": "^4.12.0",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "",
-    "nth-check": ">=2.1.1",
+    "nth-check": ">=2.0.1",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
