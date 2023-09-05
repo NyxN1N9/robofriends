@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from '../Card';
+import Card from './Card';
 
 const CardList = ({ robots }) => {
-  if (true) {
+  if (false) {
     throw new Error('NOOOOOO!');
   }
-  return (
+    return (
     <React.Fragment>
       <div>
         {
