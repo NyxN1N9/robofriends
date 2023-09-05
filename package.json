@@ -1,5 +1,6 @@
 {
     "name": "robofriends",
+    "homepage": "https://NyxN1N9.github.io/robofriends",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -9,6 +10,7 @@
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
         "css-select": "^5.1.0",
+        "gh-pages": "^6.0.0",
         "npm": "^10.0.0",
         "nth-check": ">=2.1.1",
         "react": "^18.2.0",
@@ -20,9 +22,12 @@
     },
     "devDependencies": {
         "nth-check": ">=2.1.1",
-        "react-scripts": "^5.0.1"
+        "react-scripts": "^5.0.1",
+        "@babel/plugin-proposal-private-property-in-object": ""
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
