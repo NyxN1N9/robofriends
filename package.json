@@ -21,9 +21,9 @@
         "webpack": "^5.88.2"
     },
     "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "",
         "nth-check": ">=2.1.1",
-        "react-scripts": "^5.0.1",
-        "@babel/plugin-proposal-private-property-in-object": ""
+        "react-scripts": "^5.0.1"
     },
     "scripts": {
         "predeploy": "npm run build",
