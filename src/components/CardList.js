@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react-dom/client';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
