@@ -1,4 +1,4 @@
-import React from 'react-dom/client';
+import React from 'react';
 
 // destructured props //
 const Card = ({ name, email, id }) => {
